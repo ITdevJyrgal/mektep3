@@ -11,7 +11,7 @@ const Services = () => {
                 <div className="services__general">
                     <div className="services__general--contact">
                         <a href="mailto:zhusupkalykov73@mail.com"><span style={{fontSize: media(15,20)}}><i className="fa-solid fa-envelope"/> zhusupkalykov73@mail.com</span></a>
-                        <a href="tel:0 771-26-24-91"><span style={{fontSize: media(15,20)}}><i className="fa-solid fa-phone"/> 0 771-26-24-91</span></a>
+                        <a href="https://wa.me/0771-26-24-91"><span style={{fontSize: media(15,20)}}><i className="fab fa-whatsapp"/> 0 771-26-24-91</span></a>
                         <a href="#"><span style={{fontSize: media(15,20)}}><i className="fa-solid fa-location-dot"/> Чоң-Алай району, Жекенди айылы
 </span></a>
                     </div>
