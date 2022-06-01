@@ -27,6 +27,7 @@ const Footer = () => {
                     <div className="footer-general__seti">
                         <h1>Соц тармактар</h1>
                         <span><a href="https://wa.me/0771-26-24-91"><i className="fab fa-whatsapp"/></a></span>
+                        <span><a href="https://t.me/0771-26-24-91"><i className="fab fa-telegram"/></a></span>
                     </div>
                 </div>
 
