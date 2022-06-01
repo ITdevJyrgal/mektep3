@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Slider from "react-slick";
 import {data} from "./dataTeachers";
-import axios from "axios"
+import {api} from "../../../http/api"
 
 const Teachers = () => {
     const settings = {
@@ -46,7 +46,7 @@ const Teachers = () => {
     };
     const [datas, setDatas] = useState([])
     useEffect(() => {
-        axios.get("https://school-prod.herokuapp.com/teacher/")
+        api.get("/teacher/")
             .then(({data}) => {
                 setDatas(data)
             })
